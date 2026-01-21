@@ -1,0 +1,45 @@
+/*	-	-	-	-	-	-	-	-	-	-	*/
+/* Style visuel global pour le projet */
+
+
+/* Import */
+@import url('https://rsms.me/inter/inter.css');
+
+
+
+
+/* Reset */
+* { box-sizing: border-box; margin:0; }
+img { max-width: 100%; display: block; object-fit: cover; }
+
+
+
+
+/* Typo */
+
+body { font-family: InterVariable, sans-serif; }
+
+h3{
+	font-size: 2rem;
+	line-height: 100%;
+	font-weight: 200;
+}
+
+
+
+
+/* Couleur */
+
+html {
+	color: #333;
+	background-color: #F6F6F6;
+}
+
+
+
+
+/* Géometrie & Mise en page */
+
+body{
+	padding: 1rem;
+}
