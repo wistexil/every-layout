@@ -43,3 +43,31 @@ html {
 body{
 	padding: 1rem;
 }
+/* navigation */
+#siteNav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: blue;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	gap: 1rem;
+
+}
+
+#siteNav a{
+	color: inherit;
+	text-decoration: none;
+}
+#siteNav a:first-child::before {
+	content: "⟵ ";
+}
+#siteNav a:last-child::after {
+	content: " ⟶";
+}
+
+#siteNav a:hover{
+	text-decoration: underline;
+	text-shadow: 0 0 0.5em #fff;
+}
